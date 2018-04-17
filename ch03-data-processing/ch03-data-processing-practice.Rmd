@@ -46,11 +46,10 @@ gapminder %>%
 ```
 
 
-# 2. 예제 데이터를 제공하는 다음 페이지를 방문하여 흥미있는 데이터를 하나 선택하여 다운로드 후, R에 읽어들이는 코드를 작성하라
-# 3. 읽어들인 데이터의 범주별 요약 통계량을 작성하라. dplyr 패키지의 %>%, group_by(), summarize를 사용해야 한다
+## 2. 예제 데이터를 제공하는 다음 페이지를 방문하여 흥미있는 데이터를 하나 선택하여 다운로드 후, R에 읽어들이는 코드를 작성하라
+## 3. 읽어들인 데이터의 범주별 요약 통계량을 작성하라. dplyr 패키지의 %>%, group_by(), summarize를 사용해야 한다
 
-## a. UCI 머신러닝 리포(http://archive.ics.uci.edu/ml/datasets.html)
-
+a. UCI 머신러닝 리포(http://archive.ics.uci.edu/ml/datasets.html)
 Online Retail Data Set(Online Retail.xlsx):
         - 01/12/2010 부터 09/12/2011 까지 한 영국 기반의 무점포 온라인 매장에서 발생한 모든 거래에 대한 정보.
         - 선물용 이색 상품을 주력으로 판매하는 회사. 주 고객은 도매업체.
@@ -82,14 +81,12 @@ online_retail %>%
 
 
 
-## b. R 예제 데이터(https://vincentarelbundock.github.io/Rdatasets/)
+b. R 예제 데이터(https://vincentarelbundock.github.io/Rdatasets/)
 The Forbes 2000 Ranking of the World's Biggest Companies (Year 2004)
     https://raw.githubusercontent.com/vincentarelbundock/Rdatasets/master/csv/HSAUR/Forbes2000.csv
 ```{r}
 Forbes2000 <- read.csv("Forbes2000.csv")
 ```
-
-
 Top 100 기업의 국가별 요약 통계치
 ```{r}
 Forbes2000 %>%
@@ -103,7 +100,6 @@ Forbes2000 %>%
   arrange(desc(n_companies))
 ```
 
-
 이익률이 높은 카테고리 찾기
 ```{r}
 Forbes2000 %>%
@@ -115,7 +111,6 @@ Forbes2000 %>%
   arrange(desc(profits_to_sales))
 ```
 
-
 이익률이 높은 기업 찾기
 ```{r}
 Forbes2000 %>%
@@ -123,9 +118,7 @@ Forbes2000 %>%
   mutate(profits_to_sales = profits/sales) %>%
   arrange(desc(profits_to_sales))
 ```
-
-
-## c. 머신러닝/데이터 과학 공유/경연 사이트인 캐글(https://www.kaggle.com/)
+c. 머신러닝/데이터 과학 공유/경연 사이트인 캐글(https://www.kaggle.com/)
 Chocolate Bar Ratings
     https://www.kaggle.com/rtatman/chocolate-bar-ratings/data
 ```{r}
