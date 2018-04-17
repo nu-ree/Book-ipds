@@ -4,9 +4,10 @@ author: "Nuree Chung"
 date: "2018년 4월 17일"
 output: html_document
 ---
-따라하며 배우는 데이터 과학, 권재명, 제이펍
-저자 블로그: https://dataninja.me/
-저자 깃허브: 책에 사용된 코드 https://github.com/jaimyoung/ipds-kr
+
+따라하며 배우는 데이터 과학, 권재명, 제이펍 </br>
+저자 블로그: https://dataninja.me/</br>
+저자 깃허브: 책에 사용된 코드 https://github.com/jaimyoung/ipds-kr</br>
 
 # 3장. 데이터 취득과 가공(p.33~61)
 연습문제(p.61) 1번~ 4번
