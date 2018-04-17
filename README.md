@@ -4,8 +4,9 @@
 
 
 ## 책 관련 링크
-	책 구매 링크: http://www.yes24.com/24/goods/44184320 
-	저자 홈페이지: http://dataninja.me/ipds-kr/
-	저자 깃허브: https://github.com/jaimyoung/ipds-kr
+
+  책 구매 링크: http://www.yes24.com/24/goods/44184320 
+  저자 홈페이지: http://dataninja.me/ipds-kr/
+  저자 깃허브: https://github.com/jaimyoung/ipds-kr
 
 
